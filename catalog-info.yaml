@@ -7,6 +7,7 @@ metadata:
   annotations:
     # Replace <org> and <repo> with your actual GitHub organization and repository name
     github.com/project-slug: sjolvsagt/test_public
+    backstage.io/techdocs-ref: dir:./docs
 spec:
   # Examples include "service", "website", "library", etc.
   type: service
