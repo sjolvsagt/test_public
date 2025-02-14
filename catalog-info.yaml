@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test_public
+  description: A public test repo.
+  annotations:
+    github.com/project-slug: sjolvsagt/test_public
+    backstage.io/techdocs-ref: dir:./docs
+spec:
+  type: website
+  lifecycle: experimental
+  owner: halhag
